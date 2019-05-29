@@ -1,0 +1,71 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+h1{
+    background-color: rgb(152, 152, 236);
+    padding: .5rem;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+
+label{
+    font-size: 1.2rem;
+    display: block;
+}
+
+input {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+input[type="text"],input[type="password"]{
+    border: none;
+    border: 2px solid blue;
+    background: transparent;
+    width: 400px;
+}
+
+.signin > input{
+    align-self: center;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.signin > input:hover{
+    background-color: rgb(3, 3, 70);
+}
+.correct{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    margin-top: 200px;
+    width: 240px; 
+}
+.wrong{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    margin-top: 200px;
+    width: 240px;  
+}
+.empty{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    margin-top: 200px;
+}
